@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: vote-app
-        image: vote-app
+        image: gcr.io/cellular-axon-325108/vote-louis
         imagePullPolicy: "IfNotPresent"
         resources:
           limits:
