@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vote-app
-  namespace: global-vote-app
+  namespace: global-vote-app-louis
 spec:
   selector:
     matchLabels:
